@@ -1,0 +1,5 @@
+com/construtcapp/runners/ParallelRunner.class
+com/construtcapp/runners/AllTimeSheetsRegressionRunner.class
+com/construtcapp/runners/TemplateTimesheetRegressionRunner.class
+com/construtcapp/runners/SmokeRunner.class
+com/construtcapp/runners/RegressionRunner.class

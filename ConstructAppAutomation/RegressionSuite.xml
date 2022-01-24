@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoke_suite">
+	
+	<test name="Construct App Smoke Test">
+
+		<classes>
+			<class name="com.construtcapp.runners.RegressionRunner"></class>
+			
+		</classes>
+	</test>
+</suite>

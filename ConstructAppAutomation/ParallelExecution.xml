@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2" >
+	<test name="Test1">
+		<parameter name="deviceName_" value="ipad_pro"/>
+		<parameter name="UDID_" value="A5C64752-C14E-43EA-963E-CE03F17A3AE7"/>
+		<parameter name="platformVersion_" value="14.2"/>
+		<parameter name="URL_" value="127.0.0.1:1234/wd/hub"/>
+		<classes>
+			<class name="com.construtcapp.runners.ParallelRunner"/>
+		</classes>
+	</test> 
+	<test name="Test2">
+		<parameter name="deviceName_" value="ipad_air"/>
+		<parameter name="UDID_" value="7CAD840E-5F23-45E3-A6C9-4FE97C43121A"/>
+		<parameter name="platformVersion_" value="14.2"/>
+		<parameter name="URL_" value="127.0.0.1:4723/wd/hub"/>
+		<classes>
+			<class name="com.construtcapp.runners.ParallelRunner"/>
+		</classes>
+	</test> 
+</suite> <!-- Suite -->
